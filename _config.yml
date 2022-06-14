@@ -1,0 +1,43 @@
+# Setup
+title: Not Pure Poole
+description: A simple, beautiful, and powerful Jekyll theme for blogs
+avatar: #here you can put a image of avatar
+paginate: 5
+permalink: pretty
+cover_image: #here you can put a image that cover the left part of page
+
+# Gems
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - scripts/
+  - not-pure-poole.gemspec
+
+# Optimize Jekyl SEO Tag
+twitter:
+  username: 
+  card: summary
+logo: #
+social:
+  name: Your Name
+  links:
+    - https://twitter.com
+    - https://github.com
+google_site_verification: xxxxx
+lang: en
+
+# Specify the author for blog posts
+author:
+  name: Your Name
+  url: https://github.com
+  email: youremail@gmail.com
